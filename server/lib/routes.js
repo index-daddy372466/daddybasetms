@@ -10,3 +10,4 @@
     app.use('/auth',objOfRoutes.developer.authRoute)
     // console.log(objOfRoutes.developer)
   };
+

@@ -3,9 +3,9 @@ const bcrypt = require("bcrypt");
 const express = require("express");
 const router = express.Router();
 const path = require("path");
+// const checkNotAuthenticated = require("../app.js");
 // index homepage
 router.get("/", (req, res) => {
-  res.json({ message: "You made it to index!" });
+  res.render("home");
 });
-
 module.exports = router;
